@@ -1,9 +1,9 @@
 # Android实验二
-## Android布局
 ### LinearLayout，ConstraintLayout，TableLayout的使用
 #### 1.利用线性布局实现如下界面
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190326103425131.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMjQxNDEy,size_16,color_FFFFFF,t_70)
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+## Android布局
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="5dp"
@@ -315,7 +315,4 @@
             android:layout_marginleft="10dp"
             android:text="Quit"
             android:background="#000000"
-            android:textColor="#FFFFFF" />
-    </TableRow>
-</TableLayout>
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190326104305834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMjQxNDEy,size_16,color_FFFFFF,t_70)
+            android:textCol
