@@ -1,16 +1,8 @@
 # Android实验二
-### LinearLayout，ConstraintLayout，TableLayout的使用
-#### 1.利用线性布局实现如下界面
+## LinearLayout，ConstraintLayout，TableLayout的使用
+### 1.利用线性布局实现如下界面
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190326103425131.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMjQxNDEy,size_16,color_FFFFFF,t_70)
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-## Android布局
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="5dp"
-    android:paddingRight="5dp"
-    android:background="#000000"
-    android:orientation="vertical">
-    <LinearLayout
+ <LinearLayout
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -42,7 +34,9 @@
             android:background="#000000"
             android:text="One,Four"
             android:textColor="#FFFFFF"/>
+            
     </LinearLayout>
+    
     <LinearLayout
         android:layout_width="370dp"
         android:layout_height="wrap_content"
@@ -75,11 +69,13 @@
             android:background="#000000"
             android:text="Two,Four"
             android:textColor="#FFFFFF"/>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -108,6 +104,7 @@
             android:background="#000000"
             android:text="Three,Four"
             android:textColor="#FFFFFF"/>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="370dp"
@@ -141,17 +138,12 @@
             android:background="#000000"
             android:text="Four,Four"
             android:textColor="#FFFFFF"/>
+
     </LinearLayout>
-</LinearLayout>
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019032610414965.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMjQxNDEy,size_16,color_FFFFFF,t_70)
-#### 2.利用ConstraintLayout实现如下界面：
+### 2.利用ConstraintLayout实现如下界面：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190326103537418.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMjQxNDEy,size_16,color_FFFFFF,t_70)
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="250dp"
-    android:background="#000000">
+
     <Button
         android:id="@+id/B1"
         android:layout_width="90dp"
@@ -212,15 +204,10 @@
         android:text="Violet"
         app:layout_constraintBottom_toBottomOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190326104252743.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMjQxNDEy,size_16,color_FFFFFF,t_70)
-#### 3.利用表格布局实现如下：
+### 3.利用表格布局实现如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190326103643728.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMjQxNDEy,size_16,color_FFFFFF,t_70)
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:stretchColumns=" * "
-    android:background="#000000">
+
     <TableRow>
         <TextView
             android:layout_width="0dp"
@@ -315,4 +302,7 @@
             android:layout_marginleft="10dp"
             android:text="Quit"
             android:background="#000000"
-            android:textCol
+            android:textColor="#FFFFFF" />
+    </TableRow>
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190326104305834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMjQxNDEy,size_16,color_FFFFFF,t_70)
